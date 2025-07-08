@@ -1,0 +1,20 @@
+import { Component, Input } from '@angular/core';
+import { CardLabel } from "./card-label/card-label";
+import { CardPricing } from "./card-pricing/card-pricing";
+
+@Component({
+  selector: 'app-card',
+  imports: [CardLabel, CardPricing],
+  templateUrl: './card.html',
+  styleUrl: './card.css'
+})
+export class Card {
+    @Input()
+  gameCover: string = "";
+    @Input()
+  gameLabel:string=""
+    @Input()
+  gameType:string = "XPTO | PS4";
+  @Input()
+  gamePrice:string = "123,42";
+}

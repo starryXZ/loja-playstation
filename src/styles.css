@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(76, 178, 180, 1) 38%, rgba(110, 188, 202, 1) 58%, rgba(90, 196, 184, 1) 64%, rgba(87, 199, 167, 1) 71%, rgba(83, 237, 101, 1) 100%);
+}
